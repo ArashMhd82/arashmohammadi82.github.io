@@ -1,0 +1,140 @@
+body{
+    font-family:'Arial Narrow', Helvetica, sans-serif;
+    padding:0;
+    margin:0;
+    font-weight: 500;
+}
+header{
+    width:100%;
+    margin:0;
+}
+nav{
+    text-align: right;
+    background:whitesmoke;
+    padding-right:6%;
+}
+@media screen and (max-width: 500px) {
+    nav {
+        text-align: center;
+    }
+}
+
+a{
+    padding:0;
+    color:black;
+    text-decoration: none;
+}
+li{
+    list-style-type:none;
+    padding:20px;
+    display: inline-flex;
+}
+li:hover{
+    background-color: white;
+}
+.wallscreen{
+    width:100%;
+    height: 650px;
+    background-image: url(../Images/Header_wallpaper.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top:300px;
+}
+.title::before{  
+    content: "";
+}
+
+.title{
+    text-align: center;
+    width:50%;
+    margin-top:0;
+    margin:auto auto auto auto;
+    background-color:hsla(240, 100%, 99%, 0.788);
+    padding:50px;
+}
+.title:hover{
+    background-color:hsla(240, 100%, 99%, 0.856);
+}
+.title h1{
+    margin-top:0;
+    font-size:40px;
+    margin-bottom: 50px;
+}
+.title p{
+    font-size: 20px;
+}
+section{
+    background-image: url(../Images/Main_wallpaper.jpg);
+    margin:0;
+    width:100%;
+    display:flex;
+    padding:90px 0;
+}
+main{
+    background-color:hsla(240, 100%, 99%, 0.788);
+    width:60%;
+    margin-right:auto;
+    margin-left: auto;
+    padding:9%;
+    border:2px black solid;
+}
+main h1{
+    font-size: 60px;
+    text-align: center;
+}
+main h2{
+    font-size: 50px;
+    text-align: center;
+}
+main h3{
+    font-size: 45px;
+    text-align: center;
+}
+main h4{
+    font-size: 40px;
+    text-align: center;
+}
+main h5{
+    font-size: 35px;
+    text-align: center;
+}
+main h6{
+    font-size: 30px;
+    text-align: center;
+}
+main p{
+    font-size: 27px;
+    line-height: 1.5em;
+}
+main img{
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+}
+footer{
+    background-image: url(../Images/Footer_wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0px;
+}
+address{
+    display:inline-block;
+    padding:10% 7% 10% 7%;
+    color:white;
+    border-left: 5px whitesmoke solid;
+    background-color: rgba(1, 1, 1, 0.39);
+    font-size:30px;
+    margin-left: 3%;
+    margin-top:22.3%;
+    margin-bottom:22.3%;
+}
+address a{
+    color:white;
+    text-decoration: none;
+}
+@media screen and (max-width: 580px) {
+    address {
+      font-size: 15px; 
+    }
+}
