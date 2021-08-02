@@ -84,7 +84,7 @@ main h1{
 }
 main h2{
     font-size: 50px;
-    text-align: center;
+    text-align: left;
 }
 main h3{
     font-size: 45px;
@@ -92,7 +92,7 @@ main h3{
 }
 main h4{
     font-size: 40px;
-    text-align: center;
+    text-align: left;
 }
 main h5{
     font-size: 35px;
@@ -137,4 +137,18 @@ address a{
     address {
       font-size: 15px; 
     }
+}
+
+main div{
+    padding-bottom: 50px;
+    border-top: 2px black solid;
+}
+main .contents{
+    color:white;
+    background-color: black;
+    font-size:25px;
+    padding:10px;
+}
+main .contents:hover{
+    background-color: rgb(31, 29, 29);
 }
