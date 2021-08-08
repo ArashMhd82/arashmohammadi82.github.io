@@ -29,6 +29,13 @@ li{
     padding:20px;
     display: inline-flex;
 }
+.sarab{
+    font-size:20px;
+    padding:0px ,10px;
+}
+.sarab:hover{
+    background-color: whitesmoke;
+}
 li:hover{
     background-color: white;
 }
